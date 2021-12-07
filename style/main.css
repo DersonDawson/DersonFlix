@@ -1,0 +1,178 @@
+
+:root{
+--azul: rgb(231, 241, 247);
+--preta: #141414;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*elementos base*/
+body{
+    
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(5,58,69,1) 50%, rgba(0,0,0,1) 100%);
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-style: initial;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+     -webkit-text-stroke: 2.5px rgba(68, 0, 255, 0.418);
+      
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color:rgb(196, 193, 193);
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: initial;
+    font-size: 20px;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('/img/leonardo-dicaprio-o-lobo-de-wall-street-1024x576.jpg');
+    
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    
+
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 7px;
+}
+.container{
+    margin-left: 30px;
+}
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-series {
+    margin-top: 10px;
+    height: 80%;
+    width: 80%;
+    display: block;
+}
+
+
+.box-filmes{
+    margin-top: 10px;
+    height: 80%;
+    width: 80%;
+    display: block;
+}
+.subtitulo{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.box-desenhos{
+    margin-top: 10px;
+    height: 80%;
+    width: 80%;
+    display: block;
+}
+
+.box-animes{
+    margin-top: 10px;
+    height: 80%;
+    width: 80%;
+    display: block;
+
+}
+
+/* hover das imagens*/
+.box-series{ 
+    transition: 0.2s; 
+}
+.box-series:hover { 
+    transform: scale(1.1); 
+   
+}
+
+.box-filmes{ 
+    transition: 0.2s; 
+}
+.box-filmes:hover { 
+    transform: scale(1.1); 
+   
+}
+.box-desenhos{ 
+    transition: 0.1s; 
+}
+.box-desenhos:hover { 
+    transform: scale(1.1); 
+   
+}
+.box-animes{ 
+    transition: 0.2s; 
+}
+.box-animes:hover { 
+    transform: scale(1.1); 
+   
+}
